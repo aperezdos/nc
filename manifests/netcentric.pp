@@ -48,6 +48,5 @@ file { '/etc/nginx/conf.d/proxies_acl.conf' :
    ensure => present,
    source => "puppet:///modules/puppet-nginx-0.71/files/proxies_acl.conf",
 }
-}
 
 
